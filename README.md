@@ -37,3 +37,18 @@ The shooter has different weapons :
 
 <img src = "Images_README/laserBlue.png">
 <img src = "Images_README/SwapScreen.png">
+
+<h2><b>Personnal investement</b></h2>
+
+<h3>Enemies</h3>
+
+<p>I have created the enemy behavior and their management. Each enemy follow the player until it is close enough and then go in straight line to allow the player to dodge them. That is the easy part.
+Our game is designed for Nintendo Switch so instancing enemies in runtime would require too much resources. To solve this problem, i implemented an enemy pool. This is a stock of pre-instanciated enemies controlled by a manager that will move them where they are needed.</p>
+
+<h3>Level Design</h3>
+
+<p>We needed the ennemies to spawn in different configurations but we would not have the time to place it by  hand. So i programmed enemy spawner with different pre-made swpan patterns such as straight line, circle etc.</p>
+
+<h3>User Interface</h3>
+
+<p>Lastly, i have managed the different menus and UI of the game.</p>
